@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { useCartStore } from '../store/cartStore';
-import logo from '../assets/logo.png';
+import favicon from '/favicon.png';
 
 export default function Header({ onCartClick }) {
   const itemCount = useCartStore((state) => state.getItemCount());
@@ -11,7 +11,7 @@ export default function Header({ onCartClick }) {
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
           <Link to="/" className="flex items-center">
-            <img src={logo} alt="Clementine Crafts" className="h-24 w-24" />
+            <img src={favicon} alt="Clementine Crafts" className="h-16 w-16" />
           </Link>
 
           {/* Navigation */}

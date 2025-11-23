@@ -50,7 +50,7 @@ export const products = [
     price: 12.00,
     category: "Accessories",
     description: "Hand-stitched leather keychain with brass hardware. A perfect small gift or personal accessory.",
-    image: "https://images.unsplash.com/photo-1611085583191-a3b181a88401?w=500&q=80",
+    image: "https://images.unsplash.com/photo-1676276550349-580c49631496?w=500&q=80",
     inStock: true,
   },
   {
